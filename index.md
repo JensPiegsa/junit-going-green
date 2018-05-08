@@ -19,7 +19,7 @@ summary: "JUnit 5. Goin green"
 
 * like in the transition from version three to four JUnit 4 and JUnit 5 tests can co-exist, in general there is no need to migrate all tests immediately
 
-## JUnit Migration Recipes
+## JUnit 4 to 5 migration recipes
 
 ### Replace `@Test` imports
 
@@ -75,7 +75,7 @@ void advancedExceptionTesting() {
 }
 ```
 
-* or in [BDD style](https://martinfowler.com/bliki/GivenWhenThen.html) use *catch-exception* like this:
+* or in [BDD style](https://martinfowler.com/bliki/GivenWhenThen.html) use catch-exception like this:
 
 ```java
 import static com.googlecode.catchexception.apis.BDDCatchException.thenThrown;
