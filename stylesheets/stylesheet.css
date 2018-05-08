@@ -328,14 +328,12 @@ header.smaller {
 	padding: 0;
 	box-shadow: 0 0 15px rgba(0,0,0,0.6);
 }
-header.smaller h1, header.smaller h2 {
-	padding: 0;
-}
 header.smaller h1 {
-	transform: scale(0.56);
+	padding: 0;
+	transform: scale(0.4);
 }
 header.smaller h2 {
-	transform: scale(0.73);
+	transform: scale(0.5);
 }
 
 .clearfix:after {
