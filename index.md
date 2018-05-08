@@ -21,19 +21,19 @@ summary: "JUnit 5. Goin green"
 
 ## Recipes
 
-### Replace @Test imports
+### Replace `@Test` imports
 
-* `import org.junit.Test;` gets `import org.junit.jupiter.api.Test;`
+* `import org.junit.Test;` becomes `import org.junit.jupiter.api.Test;`
 
-### Replace HierarchicalContextRunner with @Nested
+### Replace `HierarchicalContextRunner` with `@Nested`
 
 * instead of `@RunWith(HierarchicalContextRunner.class)` on the top-level class, annotate all [`@Nested`](https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/Nested.html) classes
 
-### Use @DisplayName("...")
+### Use `@DisplayName("...")`
 
-* describe top-level test classes, @Nested test classes and @Test methods via `@DisplayName("...")` (from package org.junit.jupiter.api) to better communicate tested behaviour
+* annotate top-level test classes, `@Nested` test classes and `@Test` methods via [`@DisplayName("...")`](https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/DisplayName.html) to better describe tested behaviour (you may like to form sentences along the nesting)
 
-### Transform @Test(expected = *Exception.cass) to `assertThrows(...)`
+### Transform `@Test(expected = *Exception.class)` to `assertThrows(...)`
 
 * new [`@Test`](https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/Test.html) annotation no longer carries expected exception, instead use [`assertThrows(...)`](https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/Assertions.html#assertThrows(java.lang.Class,org.junit.jupiter.api.function.Executable)):
 

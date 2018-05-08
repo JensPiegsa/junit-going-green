@@ -23,7 +23,7 @@ body {
 }
 
 a {
-	color: #1e6bb8;
+	color: #e00;
 	text-decoration: none;
 }
 
@@ -102,6 +102,11 @@ a:hover {
 	color: #4c873e;
 }
 
+.main-content h3 {
+	border-top: 1px solid #ddd;
+	padding-top: 1em;
+}
+
 .main-content p {
 	margin-bottom: 1em;
 }
@@ -109,8 +114,8 @@ a:hover {
 .main-content code {
 	padding: 2px 4px;
 	font-family: Cousine, "Liberation Mono", Menlo, Courier, monospace;
-	font-size: 0.9rem;
-	color: #383e41;
+	font-size: 0.9em;
+	color: #567482;
 	background-color: #edf0f4;
 	border-radius: 0.3rem;
 }
