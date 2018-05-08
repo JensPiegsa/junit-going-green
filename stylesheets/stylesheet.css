@@ -34,8 +34,8 @@ a:hover {
 .page-header {
 	color: #fff;
 	text-align: center;
-	background-color: #159957;
-	background-image: linear-gradient(120deg, #155799, #159957);
+	background-color: #64b352;
+	background-image: linear-gradient(0deg, #4c873e, #64b352);
 }
 
 
@@ -99,7 +99,7 @@ a:hover {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	font-weight: normal;
-	color: #159957;
+	color: #4c873e;
 }
 
 .main-content p {
@@ -332,11 +332,11 @@ header.smaller h2 {
 .left-margin {
 	flex-shrink: 0;
 	flex-grow: 0;
-	flex-basis: 17rem;
+	flex-basis: 19rem;
 }
 .right-margin {
 	flex-shrink: 1;
-	width: 13rem;
+	width: 11rem;
 }
 
 .note {
@@ -373,7 +373,7 @@ nav.js-toc {
     left: 1.7rem;
     right: 0;
     top: 14rem;
-    width: 14rem;
+    width: 16rem;
     transition: top 0.3s ease 0s;
     font-size: 14px;
 }
@@ -402,7 +402,7 @@ nav > .toc-list {
     font-weight: normal;
 }
 .js-toc a.is-active-link {
-    color: #d0a;
+    color: #e00;
 }
 
 .toc-list.is-collapsible:before {
@@ -431,7 +431,8 @@ article {
 }
 
 .page-footer {
-	background:linear-gradient(120deg, #155799, #159957);
+	background:linear-gradient(0deg, #4c873e, #64b352);
+	background-color: #64b352;
 	height: 24rem;
 	width:100%;
 }
