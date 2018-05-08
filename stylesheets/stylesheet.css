@@ -130,6 +130,7 @@ a:hover {
 .main-content h3 > code {
 	color: unset;
 	background-color: unset;
+	font-size: 1em;
 }
 
 .main-content pre {
