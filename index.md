@@ -11,13 +11,6 @@ summary: "JUnit 5. Goin green"
 
 //[junit](http://junit.jens-piegsa.com/).[jens-piegsa.com](http://jens-piegsa.com/)/
 
-# Content
-
-* [Migration from JUnit 4 to JUnit 5](#migration_from_junit_4_to_junit_5)
-	* [Introduction](#introduction)
-	* [Recipes](#lifecycle)
-* [Additional Material](#additional_material)
-
 # Migration from JUnit 4 to JUnit 5
 
 ## Introduction
@@ -34,7 +27,7 @@ summary: "JUnit 5. Goin green"
 
 ### Replace HierarchicalContextRunner with @Nested
 
-* instead of `@RunWith(HierarchicalContextRunner.class)` on the top-level class, annotated all nested classes with [`@Nested`](https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/Nested.html)
+* instead of `@RunWith(HierarchicalContextRunner.class)` on the top-level class, annotate all [`@Nested`](https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/Nested.html) classes
 
 ### Use @DisplayName("...")
 
