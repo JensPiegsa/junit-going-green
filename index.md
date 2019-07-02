@@ -2,7 +2,7 @@
 layout: "index"
 author: "Jens Piegsa"
 title: "JUnit 5"
-summary: "JUnit 5. Goin green"
+summary: "JUnit 5. Going green"
 ---
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WZJTZ3V8KKARC)
@@ -184,4 +184,4 @@ class UserBuilderTest {
 ## Contribute
 {: .js-toc-ignore }
 
-Feel free to fork this project, send me pull requests, and issues through the project's [GitHub page](https://github.com/JensPiegsa/junit-goin-green).
+Feel free to fork this project, send me pull requests, and issues through the project's [GitHub page](https://github.com/JensPiegsa/junit-going-green).
